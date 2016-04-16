@@ -3,7 +3,6 @@
 class Phones
 {
 
-
   public function getPhones(){
     $result = $this->getPhonesFromDb();
     while ($obj = $result->fetch_object()) {
